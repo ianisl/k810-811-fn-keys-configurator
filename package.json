@@ -1,0 +1,15 @@
+{
+  "name": "K810-811 FN Keys Configurator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "GNU General Public License v3.0",
+  "dependencies": {
+    "node-hid": "^0.7.2",
+    "yargs": "^11.0.0"
+  }
+}
