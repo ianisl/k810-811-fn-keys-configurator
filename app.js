@@ -2,7 +2,7 @@ const HID = require('node-hid');
 const argv = require('yargs').argv;
 
 // Message to display in case of incorrect options
-let errorUsageMsg = 'Error: Incorrect options.\nUsage: ';
+let errorUsageMsg = 'Error: Incorrect options.\nUsage: node app.js [--list] [--device <K810|K811>] --on|off';
 
 // K810 & K811 Vendor ID and Product ID (defaults to K811)
 let vendorId = 1133; // 0x046d
